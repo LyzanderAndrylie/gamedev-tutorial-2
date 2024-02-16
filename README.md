@@ -67,3 +67,22 @@ dan jawablah pertanyaan-pertanyaan berikut:
 - Pada _scene_ `MainLevel`, perhatikan nilai atribut `Position` _node_ `PlatformBlue`, `StonePlatform`, dan `StonePlatform2`. Mengapa nilai `Position` _node_ `StonePlatform` dan `StonePlatform2` tidak sesuai dengan posisinya di dalam _scene_ (menurut Inspector) namun visualisasinya berada di posisi yang tepat?
 
     Hal ini dikarenakan nilai atribut `Position` relatif terhadap _node parent_. Dalam hal di atas, nilai `Position` _node_ `StonePlatform` dan `StonePlatform2` relatif terhadap posisi _node_ `PlatformBlue` yang berposisi pada x = 35 dan y = 565 relatif terhadap _scene_ `MainLevel`. Dengan demikian, informasi yang ditampilkan oleh inspector tepat.
+
+## Latihan Mandiri: Membuat Level Baru
+
+Pada level baru ini, diharapkan kamu dapat membuat:
+
+1. [X] Objek pesawat baru.
+2. [X] Objek landasan baru.
+3. [X] Desain level yang berbeda dari level awal dengan menempatkan `ObjectiveArea` di pojok kanan atas atau pojok kana bawah area permainan di level baru.
+4. [ ] Silakan berkreasi jika ingin memoles level awal maupun level baru. Beberapa ide _polishing_:
+    - [ ] Implementasi reset kondisi level ketika pesawatnya jatuh ke luar area permainan.
+    - [X] Implementasi transisi level awal ke level baru ketika pemain berhasil mencapai `ObjectiveArea`. Misalnya menampilkan pesan kemenangan sesaat sebelum pindah level.
+    - [X] Menambahkan gambar latar.
+    - [ ] Menambahkan rintangan objek statis pada level baru.
+    - Dan lain-lain. Silakan berkreasi!
+
+## Assets
+
+1. [Space by InstaWalli](https://www.pexels.com/photo/stars-during-night-time-176851/)
+2. [Portal by llzes](https://imgbin.com/png/UJEwNhv7/portal-cartoon-network-png)
